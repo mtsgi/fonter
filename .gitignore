@@ -1,5 +1,7 @@
-node_modules
 .DS_Store
-dist
-dist-ssr
-*.local
+bun.lockb
+node_modules
+docs/islands.js
+docs/nue.js
+docs/for.js
+docs/if.js

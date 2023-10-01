@@ -1,0 +1,16 @@
+
+<!--
+  Small library of client-side reactive components
+
+  https://nuejs.org/docs/nuejs/reactive-components.html
+-->
+
+<a @name="converter" class="converter">
+  <textarea>something</textarea>
+  <button>POST</button>
+  <script>
+    open() {
+      alert('hello')
+    }
+  </script>
+</a>

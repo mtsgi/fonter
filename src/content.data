@@ -1,0 +1,27 @@
+
+# Website content and settings (in YAML format)
+
+# Parsed and given as argument to SSR render() function
+# check: scripts/render.js
+
+title: Fonter
+heading: Fonter
+description: Post on social networking sites with cool fonts
+github: mtsgi/fonter
+
+projects:
+  - Nue JS:  Build user interfaces with 10x less code
+  - Nue MVC: Bring back the power of cascaded styling
+  - Nue CSS: Build intuitive single-page apps that scale
+  - Nue UI:  Reusable components for rapid UI development
+  - Nuemark: Markdown flavor for rich/interactive content
+  - Nuekit:  Build websites and webapps with 10x less code
+
+themes:
+  - name: Light
+    color: fff
+  - name: Dark
+    color: 21262d
+  - name: Vibrant
+    class: dark vibrant
+    color: 0098c8
