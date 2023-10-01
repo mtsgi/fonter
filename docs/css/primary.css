@@ -48,8 +48,8 @@ h1, h2, h3 {
 
 h1 {
   font-size: 5.5em;
-  font-weight: 900;
-  margin-bottom: .1em;
+  font-weight: normal;
+  margin-bottom: .25em;
 }
 
 h3 {
@@ -57,7 +57,7 @@ h3 {
 }
 
 h1 + p {
-  font-size: 1.6em;
+  font-size: 1.25em;
 }
 
 /* Master navigation */
@@ -70,6 +70,9 @@ h1 + p {
 }
 
 .mastnav a {
+  color: #4a4f53;
+  text-decoration: none;
+  font-weight: bold;
   display: inline-block;
   transition: transform .1s;
 }
@@ -87,10 +90,6 @@ h1 + p {
   margin-left: .5em;
 }
 
-.logo {
-  max-height: 2em;
-}
-
 /* Project list */
 .grid {
   list-style: none;
@@ -103,7 +102,7 @@ h1 + p {
 
 .grid li {
   box-shadow: 0 1px 2px #0001, .1em .4em 1em rgba(0,0,0,0.08);
-  border-radius: 2px;
+  border-radius: 10px;
   padding: 1.2em 1.6em;
   text-align: left;
 }

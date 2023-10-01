@@ -4,12 +4,10 @@
 # Parsed and given as argument to SSR render() function
 # check: scripts/render.js
 
-title: A barebones Nue app
-heading: Frontend Troublesolver
-description: Nue is a set of tools to make web developer's life easier
-github: nuejs/create-nue
-favicon: img/stack.svg
-logo: img/logo.svg
+title: Fonter
+heading: Fonter
+description: Post on social networking sites with cool fonts
+github: mtsgi/fonter
 
 projects:
   - Nue JS:  Build user interfaces with 10x less code
@@ -27,7 +25,3 @@ themes:
   - name: Vibrant
     class: dark vibrant
     color: 0098c8
-
-secondary_css:
-  - css/themes.css
-  - css/dialog.css

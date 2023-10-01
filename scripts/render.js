@@ -14,7 +14,7 @@ import yaml from 'js-yaml'
 const read = async (name, dir='src') => await fs.readFile(dir + '/' + name, 'utf-8')
 
 // read primary CSS
-const primary_css = await read('primary.css', 'www/css')
+const primary_css = await read('primary.css', 'docs/css')
 
 // read dependencies (server-side components)
 const lib  = parse(await read('components.nue'))
@@ -33,6 +33,6 @@ data.timestamp = new Date()
 const html = '<!DOCTYPE html>\n\n' + render(page, data, lib)
 
 // write index.html
-await fs.writeFile('./www/index.html', html)
+await fs.writeFile('./docs/index.html', html)
 
-console.log('wrote', 'www/index.html')
+console.log('wrote', 'docs/index.html')

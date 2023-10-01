@@ -7,7 +7,7 @@
 */
 import { compileFile } from 'nuejs-core'
 
-const target_js = 'www/islands.js'
+const target_js = 'docs/islands.js'
 
 // compile nue source code for browser execution
 await compileFile('src/islands.nue', target_js)

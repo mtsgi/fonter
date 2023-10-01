@@ -13,7 +13,7 @@
 
   "scripts": {
     "start": "npm run minify && npm run render && npm run compile && npm run serve",
-    "serve": "cd www && ../scripts/server.js",
+    "serve": "cd docs && ../scripts/server.js",
     "compile": "./scripts/compile.js",
     "minify": "./scripts/minify.js",
     "render": "./scripts/render.js"

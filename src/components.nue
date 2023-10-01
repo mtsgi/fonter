@@ -8,9 +8,10 @@
 
 <!-- site header -->
 <header @name="site-header" class="mastnav">
-  <a href="https://nuejs.org/"><img class="logo" :src="logo"></a>
+  <a href="https://mtsgi.github.io/fonter">
+    Fonter
+  </a>
   <nav>
-    <dialog-opener key="themes"/>
     <a href="https://github.com/{ github }">
       <img src="img/github.svg" class="icon"></a>
   </nav>

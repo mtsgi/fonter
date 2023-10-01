@@ -16,14 +16,14 @@ try {
     entryPoints: [join('node_modules', 'nuejs-core', 'src', 'nue.js')],
     format: 'esm',
     bundle: true,
-    outdir: 'www',
+    outdir: 'docs',
     minify: true
   })
 
-  console.log('Minified Nue to wwwl/nue.js with', process.isBun ? 'Bun' : 'ESBuild')
+  console.log('Minified Nue to www/nue.js with', process.isBun ? 'Bun' : 'ESBuild')
 
 } catch (e) {
-  console.log('No builder found (esbuild or Bun)', 'www/nue.js is not minified')
+  console.log('No builder found (esbuild or Bun)', 'docs/nue.js is not minified')
   await copyNue()
 }
 
