@@ -1,13 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" href="/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Fonter</title>
-  </head>
-  <body>
-    <div id="app"></div>
-    <script type="module" src="/src/main.ts"></script>
-  </body>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fonter - Twitter Fonts Converter</title>
+  <meta name="description" content="入力テキストをTwitter Fonts（Unicode装飾文字）に変換するアプリケーション">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet" />
+</head>
+<body>
+  <div class="app-container">
+    <header class="header">
+      <h1>Fonter</h1>
+      <p class="subtitle">Beautiful Custom Fonts for Social Media</p>
+    </header>
+    
+    <main>
+      <section class="input-section">
+        <textarea id="sourceText" placeholder="ここに変換したいテキストを入力してください... (アルファベット・数字)" autofocus></textarea>
+      </section>
+
+      <section class="converters-section" id="convertersContainer">
+        <!-- Converters will be generated here -->
+      </section>
+    </main>
+  </div>
+  <script type="module" src="main.js"></script>
+</body>
 </html>
